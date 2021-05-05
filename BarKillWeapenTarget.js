@@ -32,7 +32,7 @@ d3.csv("https://gist.githubusercontent.com/SanneKerck/4a8ce0acd1bfc115819144b9ce
         .style("font-size", "16px") 
         .attr("font-weight", "bold")
         .style("text-decoration", "underline")  
-        .text("Bar chart of the number of individuals killed by year and weapon type by target type");
+        .text("Bar chart of the number of individuals killed by weapon type given target type");
     
     // Add X axis
     var x = d3.scaleBand()
