@@ -1,5 +1,5 @@
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 150, left: 70},
+var margin = {top: 20, right: 30, bottom: 160, left: 70},
 width = 800 - margin.left - margin.right,
 height = 800 - margin.top - margin.bottom;
 
@@ -61,7 +61,7 @@ d3.csv("https://gist.githubusercontent.com/SanneKerck/4a8ce0acd1bfc115819144b9ce
 
     // Add Y axis
     var y = d3.scaleLinear()
-              .domain([0, 210000])
+              .domain([0, 250000])
               .range([ height, 0 ]);
     svg.append("g")
        .call(d3.axisLeft(y))
